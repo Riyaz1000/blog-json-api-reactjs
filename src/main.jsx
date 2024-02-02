@@ -5,6 +5,7 @@ import "./index.css";
 import HomePage from "./Pages/HomePage.jsx";
 import DetailPage from "./Pages/DetailPage.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import DetailPageBak from "./Pages/DetailPagebak.jsx";
 
 // ReactDOM.createRoot(document.getElementById("root")).render(
 //   <React.StrictMode>
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/post/:id",
-        element: <DetailPage />,
+        element: <DetailPageBak />,
       },
     ],
   },

@@ -30,7 +30,7 @@ const HomePage = () => {
               {/* <Link to={post.reactions}> Read More </Link> */}
               {/* <Link to={`desc/" + val.id`}> Read More </Link> */}
               {/* <Link to={"posts/" + posts.id}> */}
-              <Link to={"/"}>
+              <Link to={`/post/${post.id}`}>
                 <button className="bg-blue-900 text-white hover:bg-blue-700 sm:mt-5 mt-10 sm:w-28 w-24   sm:ml-0 ml-10   hover:text-white text-sm px-2 py-1 rounded">
                   Read More
                 </button>
